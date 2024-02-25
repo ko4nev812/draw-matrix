@@ -55,6 +55,7 @@ This class has several methods that will help you master this library:
 
 an example of drawing a simple picture:
 
+	from drawmatrix import *
 	t = Сanvas_matrix(10,25)
     t.local_draw = [7,0]
     t.makeline(0, 0, 4, 2)
